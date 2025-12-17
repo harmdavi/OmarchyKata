@@ -14,15 +14,12 @@ fi
 cd ~
 
 echo "Removing old config files"
-#rm -rf ~/.config/yazi/yazi.toml
+rm -rf ~/.config/nvim
 
 #next one that needst to be removed
 
 cd "$REPO_NAME"
 
-stow -t ~ . 
-
-
-
+stow -t ~ nvim 
 
 
