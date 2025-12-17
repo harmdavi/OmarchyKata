@@ -1,3 +1,3 @@
 #!/bin/sh
 
-sudo pacman -S keepass --noconfirm --needed
+sudo pacman -S keepassxc --noconfirm --needed
