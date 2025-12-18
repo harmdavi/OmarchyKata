@@ -20,6 +20,6 @@ rm -rf ~/.config/nvim
 
 cd "$REPO_NAME"
 
-stow -t ~ nvim 
-
+stow -t ~ nvim
+stow -t ~ commands
 
