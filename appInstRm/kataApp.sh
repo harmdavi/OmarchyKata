@@ -14,3 +14,5 @@
 . ./installYazi.sh
 . ./installYtdlp.sh
 . ./installw3m.sh
+. ./installnpm.sh
+
