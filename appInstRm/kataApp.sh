@@ -15,4 +15,5 @@
 . ./installYtdlp.sh
 . ./installw3m.sh
 . ./installnpm.sh
-. ./installzathura
+. ./installzathura.sh
+. ./installtexlive.sh

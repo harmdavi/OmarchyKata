@@ -1,0 +1,37 @@
+
+
+#!/bin/bash
+
+# Counter starts at 1
+counter=1
+
+shopt -s nocaseglob   # Enable case-insensitive globbing
+
+for file in *.jpg *.jpeg *.png *.gif; do
+    [ -e "$file" ] || continue
+
+    # Skip files that already match IMG####.ext
+    if [[ "$file" =~ ^IMG[0-9]{4}\.(jpg|png|gif)$ ]]; then
+        continue
+    fi
+
+    # Get the extension in lowercase
+    ext="${file##*.}"
+    ext="${ext,,}"  
+
+    # Standardize jpeg to jpg
+    [[ "$ext" == "jpeg" ]] && ext="jpg"
+
+    # Find the next available IMG#### name
+    while [ -e "$(printf "IMG%04d.%s" "$counter" "$ext")" ]; do
+        ((counter++))
+    done
+
+    new_name=$(printf "IMG%04d.%s" "$counter" "$ext")
+
+    mv -- "$file" "$new_name"
+    ((counter++))
+done
+
+echo "All images renamed safely."
+
