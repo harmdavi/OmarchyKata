@@ -15,7 +15,7 @@ cd ~
 
 echo "Removing old config files"
 rm -rf ~/.config/nvim
-
+rm -rf ~/.local/share/omarchy/default/xcompose
 #next one that needst to be removed
 
 cd "$REPO_NAME"
@@ -23,3 +23,4 @@ cd "$REPO_NAME"
 stow -t ~ nvim
 stow -t ~ commands
 
+ omarchy-restart-xcompose

@@ -17,3 +17,5 @@
 . ./installnpm.sh
 . ./installzathura.sh
 . ./installtexlive.sh
+. ./installWget.sh
+. ./installVTT.sh

@@ -2,3 +2,4 @@
 
 . ./themeinstall.sh
 . ./bashrcAppend.sh
+. ./hyperlandKeyBindings.sh

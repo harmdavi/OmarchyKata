@@ -1,0 +1,38 @@
+include "%L"
+
+# Emoji
+<Multi_key> <m> <j> : "😄" # joy
+<Multi_key> <m> <s> : "😭" # sad
+<Multi_key> <m> <c> : "😎" # cool
+<Multi_key> <m> <l> : "😂" # laugh
+<Multi_key> <m> <h> : "❤️"  # heart
+<Multi_key> <m> <y> : "😬" # yikes
+<Multi_key> <m> <n> : "👎" # no
+<Multi_key> <m> <f> : "🤌" # fettuccine
+<Multi_key> <m> <k> : "😘" # kiss
+<Multi_key> <m> <r> : "🙄" # eyeRoll
+<Multi_key> <m> <x> : "🎉" # xellebrate
+<Multi_key> <m> <t> : "👍" # thumbs up
+<Multi_key> <m> <p> : "🙏" # pray
+<Multi_key> <m> <w> : "😉" # wink
+<Multi_key> <m> <o> : "👌" # OK
+<Multi_key> <m> <a> : "💪" # arm
+<Multi_key> <m> <b> : "🤯" # blowing
+<Multi_key> <m> <d> : "😈" # devil
+
+# These are for my symbols
+<Multi_key> <s> <o> : "Ω" # omega
+<Multi_key> <s> <d> : "°" # degree
+<Multi_key> <s> <p> : "±" # Plus and Minus
+<Multi_key> <s> <m> : "μ"  #  Mu
+<Multi_key> <s> <t> : "λ"  # Tau
+
+#<Multi_key> <m> <g> : "👋" # greeting
+#<Multi_key> <m> <1> : "💯" # 100%
+#<Multi_key> <m> <m> : "💰" # money
+#<Multi_key> <m> <d> : "🤤" # droll
+#<Multi_key> <m> <r> : "🤘" # rock
+#<Multi_key> <m> <v> : "✌️"  # victory
+#<Multi_key> <m> <> : "🤞" # wish
+# Typography
+<Multi_key> <space> <space> : "—"

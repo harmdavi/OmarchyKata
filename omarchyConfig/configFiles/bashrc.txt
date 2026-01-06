@@ -1,3 +1,4 @@
+# This makes it so that when you type y in the terminal, it starts Yazi. It also makes is so when "q" is pressed, the terminal is in the last yazi opening.
 function y() {
 	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
 	command yazi "$@" --cwd-file="$tmp"
