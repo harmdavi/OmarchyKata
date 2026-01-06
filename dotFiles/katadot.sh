@@ -16,6 +16,7 @@ cd ~
 echo "Removing old config files"
 rm -rf ~/.config/nvim
 rm -rf ~/.local/share/omarchy/default/xcompose
+rm -rf ~/.local/share/omarchy/default/hypr/bindings/tiling-v2.conf
 #next one that needst to be removed
 
 cd "$REPO_NAME"
