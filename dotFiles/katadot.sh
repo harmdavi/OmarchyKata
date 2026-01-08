@@ -18,6 +18,7 @@ rm -rf ~/.config/nvim
 rm -rf ~/.local/share/omarchy/default/xcompose
 rm -rf ~/.local/share/omarchy/default/hypr/bindings/tiling-v2.conf
 rm -rf ~/.config/hypr/input.conf 
+rm -rf ~/.config/hypr/bindings.conf
 #next one that needst to be removed
 
 cd "$REPO_NAME"

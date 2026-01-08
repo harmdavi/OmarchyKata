@@ -1,0 +1,9 @@
+#!/bin/sh
+
+# Open KeePassXC
+keepassxc &
+
+# Open school website
+omarchy-launch-webapp "https://my.uidaho.edu" &
+
+exit

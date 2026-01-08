@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+# Workspace 1
+hyprctl dispatch workspace 1
+hyprctl dispatch exec keepassxc
+hyprctl dispatch exec inkscape 
+
+# Small delay helps Hyprland place windows correctly
+sleep 7
+
+# Workspace 2
+hyprctl dispatch workspace 2
+hyprctl dispatch exec freecad 
+
+close
